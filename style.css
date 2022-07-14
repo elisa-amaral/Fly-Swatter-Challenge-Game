@@ -1,0 +1,65 @@
+html 
+{
+	cursor: url(images/fly-swatter.png) 30 30, auto;
+}
+
+body {
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+option
+{
+	font-weight: 500;
+}
+
+.fly_1 {
+	width: 65px;
+	height: 65px;
+}
+
+.fly_2 {
+	width: 75px;
+	height: 75px;
+}
+
+.fly_3 {
+	width: 85px;
+	height: 85px;
+}
+
+.left 
+{
+	transform: scaleX(1);
+}
+
+
+.right 
+{
+  	transform: scaleX(-1);
+}
+
+.pannel 
+{
+	position: absolute;
+	width: 190px;
+	padding: 10px;
+	left:  0px;
+	bottom: 0px;
+	border-top: solid 1px #fff;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.lives 
+{
+	float: left;
+}
+
+.timer 
+{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}

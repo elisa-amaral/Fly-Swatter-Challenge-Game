@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fly-Swatter Challenge Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="images/fly.png">
+
+	<script src="logic.js"></script>
+
+</head>
+	
+	<body onresize="adjustGameWidthAndHeight()"> 
+
+		<div class="pannel">
+			<div class="lives">
+				<img id="life_1" src="images/filled-heart.png">
+				<img id="life_2" src="images/filled-heart.png">
+				<img id="life_3" src="images/filled-heart.png">
+				<img id="life_4" src="images/filled-heart.png">
+				<img id="life_5" src="images/filled-heart.png">
+			</div>
+			<div class="timer">
+				Timer: <span id="timer"></span>
+			</div>
+		</div>
+
+		<script>
+
+			document.getElementById('timer').innerHTML = remainingTime 
+
+			var displayFly = setInterval(function() 
+			{
+				randomCoordinates()
+			}, remainingTimeBeforeDisplayingNewFly) 
+
+		</script>
+	</body>
+</html>
