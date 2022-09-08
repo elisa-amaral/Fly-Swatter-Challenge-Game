@@ -1,6 +1,6 @@
 # Fly-Swatter Challenge Game
 
-This project is a game coded in JavaScript, HTML, CSS and Bootstrap.
+This project is a simple game named Fly-Swatter Challenge. The purpose of the game (as a player) is explained below.
 
 ## Screenshot 
 
@@ -12,7 +12,9 @@ If the ***fly*** element is clicked before it's automatically removed (deleted f
 
 ## Technology Stack
 
-+ JavaScript
+The project was built with:
+
++ JavaScript (Vanilla JS)
 + HTML
 + CSS
 + Bootstrap
