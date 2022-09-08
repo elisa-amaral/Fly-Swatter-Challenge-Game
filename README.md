@@ -14,7 +14,7 @@ If the ***fly*** element is clicked before it's automatically removed (deleted f
 
 The project was built with:
 
-+ JavaScript (Vanilla JS)
++ JavaScript
 + HTML
 + CSS
 + Bootstrap
